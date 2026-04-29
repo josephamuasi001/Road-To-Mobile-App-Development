@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://youtube.com"
+    target="_blank">
+    <button
+    onclick="doSOmething()"
+    style="font-size:25px; background-color: grey; color:lightblue;
+    border-radius: 5px;">
+        Click me 
+    </button>
+    </a>
+    <p id="greetings">Hello</p>
+    <script>
+        function doSOmething() {
+            document.getElementById("greetings").innerHTML = "Goodbye"
+        }
+    </script>
+</body>
+</html>
