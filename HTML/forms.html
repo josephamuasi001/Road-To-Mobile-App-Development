@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="POST">
+        <label for="username">Username</label>
+        <br>
+        <input type="text" name="name" id="username" 
+        placeholder="Joseph Amuasi" minlength="5"
+        maxlength="20" required> <br>
+
+        <input type="submit">
+        <br>
+        <input type="reset">
+        <label for="password">Password</label>
+        <input type="password" id="password" minlength="5" maxlength="20">
+        <label for="email">
+            Email
+        </label>
+        <input type="email" id="email" placeholder="Squarepant@gmail.com">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="123-456-7890">
+        <br>
+
+        <label for="bday">Birthdate</label>
+        <input type="date" id="bday">
+        <br>
+
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" min="0"
+        max="99"> 
+        <br>
+
+        <label for="title">Title</label>
+        <label for="Mr">Mr.</label>
+        <input type="radio" id="Mr" value="Mr." name="title">
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" id="Mrs" value="Mrs." name="title">
+        <label for="payment">Payment</label>
+        <select name="payment" id="payment">
+            <option value="Select">Select</option>
+            <option value="visa">Visa</option>
+            <option value="mastercard">Master Card</option>
+            <option value="giftcard">Gift Card</option>
+        </select>
+
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="subscribe">
+        <label for="comment">Comment</label>
+        <textarea id="comment" rows="3" cols="25"></textarea>
+        <hr>
+    </form>
+</body>
+</html>
