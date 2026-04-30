@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+#p1 {
+    font-size: larger;
+    color: orange;
+}
+
+#p2 {
+    font-size: smaller;
+    color: green;
+}
+
+.odd {
+    background-color: lightgray;
+}
