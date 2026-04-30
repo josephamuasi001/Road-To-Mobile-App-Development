@@ -1,0 +1,24 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+
+}
+
+#box1 {
+    background-color: lightblue;
+    margin: auto;
+
+}
+
+#box2 {
+    background-color: rgb(215, 230, 173);
+    margin: auto;
+
+}
