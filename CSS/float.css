@@ -11,4 +11,6 @@
 body {
     border: 5px solid;
     display: flow-root;
+    overflow: scroll;
 }
+
