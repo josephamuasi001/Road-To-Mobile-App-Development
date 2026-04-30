@@ -1,0 +1,14 @@
+#img1 {
+    float: left;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+#img {
+    float: right;
+}
+
+body {
+    border: 5px solid;
+    display: flow-root;
+}
