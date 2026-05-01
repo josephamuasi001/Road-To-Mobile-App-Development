@@ -37,3 +37,42 @@ li:nth-child(2n-1){
 #greetings:hover p{
     display: block;
 }
+
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: yellow;
+}
+
+p::selection {
+    color: white;
+    background-color: rgb(0, 255, 55);
+}
+
+
+#fruit ul li::before {
+    content: "👍";
+}
+
+#fruit ul li::after {
+    content: "👎";
+}
+
+#apple::before {
+    content: "🍎";
+}
+
+#banana::before {
+    content: "🍌";
+}
+
+#orange::before {
+    content: "🍊";
+}
+
+#fruit li::marker{
+    content: "🍉";
+}
