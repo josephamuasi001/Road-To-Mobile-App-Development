@@ -1,0 +1,28 @@
+a:link{
+    color: rgb(0, 255, 55);
+}
+
+a:hover {
+    color:rgb(0, 255, 55);
+}
+
+a:active {
+    color: rgb(0, 119, 255);
+    font-size: 1.1em;
+}
+
+a:visited {
+    color: rgb(162, 0, 255);
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+li:not(:hover) {
+    background-color: rgb(141, 132, 132);
+}
+
+li:nth-child(2n-1){
+    background-color: blue;
+}
