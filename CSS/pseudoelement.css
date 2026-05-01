@@ -26,3 +26,14 @@ li:not(:hover) {
 li:nth-child(2n-1){
     background-color: blue;
 }
+
+
+#greetings p {
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+
+#greetings:hover p{
+    display: block;
+}
