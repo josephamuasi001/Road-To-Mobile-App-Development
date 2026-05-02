@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 10px solid black;
+    height: 90vh;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: yellow;
+}
+
+#box3 {
+    background-color: greenyellow;
+}
+
+#box4 {
+    background-color: violet;
+}
