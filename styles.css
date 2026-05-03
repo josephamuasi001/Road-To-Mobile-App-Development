@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 
+  'Lucida Sans Regular',
+   'Lucida Grande',
+    'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f4f6fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container holding both cards */
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+/* Card layout */
+.card {
+  display: flex;
+  width: 600px;
+  height: 350px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Left side form */
+.form-section {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-section h2 {
+  margin-bottom: 10px;
+}
+
+.form-section p {
+  margin-bottom: 15px;
+  color: gray;
+}
+
+.form-section input {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form-section button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #360c7b, #53d6fe);
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.small {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Right purple side */
+.side-section {
+  width: 50%;
+  background: linear-gradient(45deg, #320082, #c952dc);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.side-section h2 {
+  margin-bottom: 10px;
+  animation-name: flow;
+  animation-duration: 3s;
+}
+
+
+.form-section button:hover {
+    background: linear-gradient(90deg, cyan, red);
+}
+
+@keyframes flow {
+   to{transform: translateX(79) ;}
+}

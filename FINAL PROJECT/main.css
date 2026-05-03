@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(251, 251, 251);
+}
+
+
+.container {
+    display: flex;
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    border: none;
+    border-radius: 15px;
+    padding: 0.01px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.form-section {
+    background-color:rgb(255, 255, 255);
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-section p {
+  margin-top: 30px;
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.form-section input {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+}
+
+.form-section button {
+    background: linear-gradient(90deg, rgb(255, 242, 5), rgb(246, 81, 11));
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#small {
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.side-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(200deg, rgb(0, 114, 134), rgb(32, 181, 64));
+  width: 50%;
+}
+
+.side-section p {
+    color: #dddddd;
+}
+
+.side-section h1 {
+    color: white;
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+}
+
+.form-section button:hover {
+    background: linear-gradient(27deg, rgb(255, 255, 255), blue, violet, indigo);
+}
+
+
+@keyframes glow {
+    from{transform: translateY(50%)}
+    40%{background: linear-gradient(45deg, #ff1818, yellow, rgb(0, 255, 76))}
+}
+
+
+
+.side-section p:hover {
+    background: linear-gradient(460deg, pink, red, blue, violet);
+}
+
+.side-section h1:hover {
+    animation-name: glow;
+    animation-duration: 5s;
+}

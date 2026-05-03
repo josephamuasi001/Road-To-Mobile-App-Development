@@ -8,15 +8,16 @@ body {
     font-size: 13em;
     text-align: center;
     border-radius: 5px;
-}
-
-#box:hover {
-    animation-name: glow;
-    animation-duration: 1s;
+    animation-name: slideleft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes slideleft{
-    from{transform: translateX(300%);}
+    from{transform: translateX(100%);}
 }
 
 @keyframes slideright{
