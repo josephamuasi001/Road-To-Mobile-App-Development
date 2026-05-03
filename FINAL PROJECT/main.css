@@ -85,12 +85,12 @@ body {
 
 .form-section button:hover {
     background: linear-gradient(27deg, rgb(255, 255, 255), blue, violet, indigo);
+    
 }
 
 
 @keyframes glow {
-    from{transform: translateY(50%)}
-    40%{background: linear-gradient(45deg, #ff1818, yellow, rgb(0, 255, 76))}
+    from{transform: translateY(56%)}
 }
 
 
@@ -101,5 +101,5 @@ body {
 
 .side-section h1:hover {
     animation-name: glow;
-    animation-duration: 5s;
+    animation-duration: 15s;
 }
