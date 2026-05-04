@@ -1,0 +1,10 @@
+nav {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-left: 65%;
+    list-style: none;
+} 
+
+
