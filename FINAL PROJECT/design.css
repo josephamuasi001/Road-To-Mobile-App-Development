@@ -6,10 +6,9 @@ body {
 }
 
 .side-section {
-    background: linear-gradient(123deg, rgb(174, 255, 0), rgb(1, 253, 85), rgba(0, 255, 213, 0.788), blue);
+    background: linear-gradient(60deg,red,#ffb700,yellow,  rgb(174, 255, 0), rgb(1, 253, 85), rgba(0, 255, 213, 0.788), blue);
     box-shadow: 1px 1px 5px grey;
 }
-
 
 
 .form-section {
@@ -76,6 +75,7 @@ label {
 }
 
 button {
+    cursor: pointer;
     color: white;
     border: none;
     border-radius: 10px;
@@ -97,7 +97,6 @@ button {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-color: blue;
 }
 
 #forget {
@@ -121,4 +120,11 @@ a:hover {
     text-align: right;
     padding-right: 50%;
     margin-right: 50px;
+}
+
+
+h3 {
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
 }
