@@ -12,7 +12,7 @@
 }
 
 .navbar {
-    padding-left: 12%;
+    padding-left: 0;
     margin-top: 1%;
     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
@@ -21,12 +21,23 @@
     justify-content: space-between;
 }
 
+
 .navbar ul {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    padding-right: 45%;
+    gap: 14px;
+    padding-right: 42%;
     padding-top: 4.5px;
+}
+
+.navbar .logo {
+    padding-right: 200px;
+}
+
+.navbar .logo:hover {
+    transition: 0.4s ease-in;
+    cursor: pointer;
+    transform: translateX(2%);
 }
 
 .navbar ul li {
@@ -43,7 +54,8 @@
 }
 
 .navbar ul li a:hover{
-    background: linear-gradient(230deg,rgb(255, 47, 0), rgb(255, 202, 30), rgb(255, 160, 8));
+    background: linear-gradient(230deg,rgb(255, 47, 0), 
+    rgb(255, 202, 30), rgb(255, 160, 8));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -59,7 +71,22 @@
     
 }
 
-.cn {
+.cn button{
+    width: 120px;
+    height: 25px;
     position: relative;
-    
+    left: 800px;
+    background: linear-gradient(45deg, rgb(255, 0, 0), rgb(255, 255, 0));
+    border: none;
+    color: white;
+    border-radius: 15px;
+}
+
+.cn button:hover {
+    transform: scale(1.09);
+    background: white;
+    border: 1px solid orangered;
+    color: orangered;
+    box-shadow: -2px 2px 5px 4px rgb(54, 44, 44);
+   
 }
