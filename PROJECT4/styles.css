@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-style: none;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 700px;
+    height: 450px;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    overflow: hidden;
+    box-shadow: 0 10px 25px black;
+    padding: 0.01px;
+}
+
+
+.login-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-color: white;
+}
+
+.login-section .logo {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-section label {
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-section input {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.login-section button {
+    background: orange;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.login-section #message {
+    color: grey;
+    margin-top: 20px ;
+}
+
+.message {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+    padding: 30px;
+}
+
